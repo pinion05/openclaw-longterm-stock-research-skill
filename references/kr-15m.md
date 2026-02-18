@@ -8,6 +8,14 @@ Assess whether a Korean stock is investable for mid/long-term holding using publ
 - Do **NOT** use scripts (`exec`/curl/python) to substitute for reading filings.
 - If DART cannot be accessed in-browser: **STOP → return Low confidence** (filing-first is non-negotiable).
 
+## URLs (copy/paste)
+- DART: https://dart.fss.or.kr/
+- KIND: https://kind.krx.co.kr/
+- FnGuide (company): https://comp.fnguide.com/
+- Yahoo Finance (KR ticker):
+  - KOSPI: `https://finance.yahoo.com/quote/<CODE>.KS`
+  - KOSDAQ: `https://finance.yahoo.com/quote/<CODE>.KQ`
+
 ## Sources
 - DART: primary filings and disclosures
 - KIND: exchange notices/events (nice-to-have; may be flaky)

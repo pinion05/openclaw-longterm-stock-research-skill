@@ -9,6 +9,13 @@ Assess whether a U.S. stock is investable for mid/long-term holding using public
 - Do **NOT** use `exec`/curl/python scraping to substitute for reading filings.
 - If you cannot access filings in-browser: stop and return **Low confidence**.
 
+## URLs (copy/paste)
+- SEC EDGAR Search: https://www.sec.gov/edgar/search/
+- SEC Company Browse (CIK): `https://www.sec.gov/edgar/browse/?CIK=<CIK10>`
+- SEC Open Data (submissions JSON): `https://data.sec.gov/submissions/CIK<CIK10>.json`
+- Finviz: `https://finviz.com/quote.ashx?t=<TICKER>`
+- Yahoo Finance: `https://finance.yahoo.com/quote/<TICKER>`
+
 ## Sources
 - SEC EDGAR: primary filings (10-K, 10-Q, 8-K, S-3/F-3, 424B* prospectus supplements, DEF 14A)
 - Yahoo Finance: broad financial and market snapshot

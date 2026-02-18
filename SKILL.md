@@ -21,6 +21,29 @@ Evidence-first long-term stock research for KR/US equities.
 - Ignore time pressure. Always do the full checklist + filing risk scan.
 - If data is missing, say so explicitly and downgrade confidence.
 
+## URLs quick reference (copy/paste)
+
+### US (SEC / market snapshot)
+- SEC EDGAR Search: https://www.sec.gov/edgar/search/
+  - Search ticker/company → filter `10-K`, `10-Q`, `8-K`, `S-3`, `424B*`, `DEF 14A` → open filing documents.
+- SEC Company Browse (by CIK): https://www.sec.gov/edgar/browse/?CIK=0001824920
+  - Replace `0001824920` with the target CIK (10 digits).
+- SEC Open Data (submissions JSON): https://data.sec.gov/submissions/CIK0001824920.json
+  - Open in browser → use to locate recent `form` + `accessionNumber` quickly.
+- SEC Archives (document pattern):
+  - `https://www.sec.gov/Archives/edgar/data/<CIK>/<ACCESSION_NO_DASHES>/<FILENAME>`
+  - `ACCESSION_NO_DASHES` = accession number with dashes removed.
+- Finviz: `https://finviz.com/quote.ashx?t=<TICKER>`
+- Yahoo Finance: `https://finance.yahoo.com/quote/<TICKER>`
+
+### KR (DART / event / fundamentals)
+- DART: https://dart.fss.or.kr/
+- KIND: https://kind.krx.co.kr/
+- FnGuide (company): https://comp.fnguide.com/
+- Yahoo Finance (KR ticker):
+  - KOSPI: `https://finance.yahoo.com/quote/<CODE>.KS`
+  - KOSDAQ: `https://finance.yahoo.com/quote/<CODE>.KQ`
+
 ## Workflow
 1. Identify market (`KR` or `US`).
 2. Open primary filings **in the browser** (see market checklist for what to prioritize).
